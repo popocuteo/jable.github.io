@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap網頁</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="#">我的旅遊日記</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">國內</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">合歡山</a>
+                <a class="dropdown-item" href="#">阿里山</a>
+				<a class="dropdown-item" href="#">墾丁</a>
+				<a class="dropdown-item" href="#">司馬庫斯</a>
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">國外</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">日本</a>
+                <a class="dropdown-item" href="#">馬來西亞</a>
+				<a class="dropdown-item" href="Israel.html">以色列</a>
+				<a class="dropdown-item" href="#">奧地利</a>
+				<a class="dropdown-item" href="#">捷克</a>
+				<a class="dropdown-item" href="#">瑞士</a>
+              </div>
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入景點">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">我的旅行日記</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2><small></small></h2>
+            <p class="lead">對於像我一樣，還沒懷孕前最愛的就是到處旅遊，
+或是懷孕後還是愛漂亮，拍照就喜歡穿漂亮高跟的鞋款，
+但旅遊或是孕期中，有跟的鞋一旦走太久還是會腳酸，
+卻又無法捨棄女孩愛美的心，就想穿著好看的鞋款拍照？
+
+這時，一雙超好走的摺疊鞋，
+就是女孩們保持漂亮卻又能與舒適兼具的小心機！！！。</p>
+		    <p>在四面牆之中，西牆被認為是當年最靠近聖殿的，使它成為猶太教信仰中除聖殿山本身以外最神聖的地點。許多世紀以來，哭牆一直是猶太人祈禱和朝聖的地點，最早記載猶太來此祈禱的文獻可以追溯到西元四世紀。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="main.jpg" class="img-fluid">
+          </div>
+        </div>	
+		
+      
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2021日光多媒體&middot;<a href="#">隱私權政策</a>&middot;<a href="#">服務條款</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>
